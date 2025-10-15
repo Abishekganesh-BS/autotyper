@@ -1,5 +1,5 @@
 
-# Auto Typer Pro (Keyboard Automation with Loops)
+# Auto Typer (Keyboard Automation with Loops)
 
 This script is an **auto-typing tool** built using [pynput](https://pypi.org/project/pynput/).
 It allows you to automatically type text with two different loop modes:
