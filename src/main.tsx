@@ -5,7 +5,7 @@ import "./index.css";
 import { logError } from "./lib/logger";
 
 // Global Error Handler
-window.onerror = (message, source, lineno, colno, error) => {
+window.onerror = (message, source, lineno, colno, _error) => {
   logError(`Global Error: ${message} at ${source}:${lineno}:${colno}`, "Global");
 };
 

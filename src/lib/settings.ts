@@ -32,7 +32,7 @@ const DEFAULT_SETTINGS: AppSettings = {
 
 export async function saveSettings(settings: Partial<AppSettings>) {
     try {
-        const store = await load("settings.json", { autoSave: true });
+        const store = await load("settings.json", { autoSave: true, defaults: {} });
         for (const [key, value] of Object.entries(settings)) {
             if (value !== undefined) {
                 await store.set(key, value);
@@ -46,7 +46,7 @@ export async function saveSettings(settings: Partial<AppSettings>) {
 
 export async function loadSettings(): Promise<AppSettings> {
     try {
-        const store = await load("settings.json", { autoSave: true });
+        const store = await load("settings.json", { autoSave: true, defaults: {} });
         const settings = { ...DEFAULT_SETTINGS };
 
         const delay_ms = await store.get<number>("delay_ms");
