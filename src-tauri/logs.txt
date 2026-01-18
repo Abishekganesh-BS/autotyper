@@ -1,0 +1,4 @@
+[2026-01-18 19:58:31] [Frontend] [AutoTyper:syncWithBackend] invalid args `settings` for command `sync_type_settings`: missing field `press_enter`
+[2026-01-18 19:58:31] [Frontend] [AutoTyper:syncWithBackend] invalid args `settings` for command `sync_type_settings`: missing field `press_enter`
+[2026-01-18 19:59:10] [Frontend] [AutoTyper:syncWithBackend] invalid args `settings` for command `sync_type_settings`: missing field `press_enter`
+[2026-01-18 19:59:11] [Frontend] [AutoTyper:syncWithBackend] invalid args `settings` for command `sync_type_settings`: missing field `press_enter`
